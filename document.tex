@@ -4,11 +4,9 @@
 %\usepackage[isolatin]{inputenc} % PC-Umlaute direkt verwenden 
 \usepackage[utf8]{inputenc} % Unicode funktioniert unter Windows, Linux und Mac
 \usepackage[T1]{fontenc}
-\usepackage{ngerman}
-\usepackage{graphicx}
-\usepackage{url}
-\usepackage{hyperref}\urlstyle{rm}
 \usepackage{times}
+\usepackage{ngerman}
+\usepackage{url}
 \usepackage[scaled]{helvet}
 \usepackage{a4wide}
 \usepackage{rotating}
@@ -19,10 +17,79 @@
 \pagestyle{plain}
 
 \begin{document}
-Hallo Welt.
+	
+	\newpage
+	\thispagestyle{empty}
+	\begin{center}\Large
+		Universität Hamburg \par
+		Institut für Wirtschaftsinformatik
+		\vfill
+		Seminararbeit
+		\vfill
+		{\Large\textsf{\textbf{TeX oder Tod}}\par}
+		\vfill
+		vorgelegt von 
+		\par\bigskip
+		Christoph Heine \par
+		Matrikelnummer 6524129 \par
+		Studiengang Wirtschaftsinformatik \par
+		Daniel Matzat \par
+		Matrikelnummer 1234567 \par
+		Studiengang Wirtschaftsinformatik
+		\vfill
+		eingereicht am \today
+		\vfill 
+		Betreuer:  \par
+		Erstgutachter:  \par
+	\end{center}
+	
+	\newpage
+	\section*{Zusammenfassung}
+	
+	\newpage
+	\section{Aller Anfang ist schwer}
+	\subsection{Daniels Reise zum Informatikum}
+	\subsection{Fred greift ein}
+	\subsection{Ein TeX kommt selten mit GUI}
+	\subsection{Ohne Voß nichts loß}
+	
+	\newpage
+	\section{Verbündete}
+	\subsection{Himbeereis zu Mittag}
+	\subsection{Angebot und Annahme}
+	\subsection{AFK: Anti-Fred-Koalition}
+	\subsection{TeXnische Probleme}
+	
+	\newpage
+	\section{Es wird eng}
+	\subsection{Scheitern bei BWL...}
+	\subsection{...Sieg bei Informatik}
+	\subsection{Freds Untergang}
 
-BlaBla.
-
-\subsection{Ein neuer Anfang}
-Hallo Christoph.
+	\newpage
+	\addcontentsline{toc}{section}{Literaturverzeichnis}
+	\begin{raggedright}%schaltet Blocksatz ab, erzeugt ein stimmigeres Schriftbild im Literaturverzeichnis
+		\begin{thebibliography}{XXXXXXXX}
+		\end{thebibliography}
+	\end{raggedright}
+	
+	\newpage
+	
+	\section{Selbstständigkeitserklärung}
+	
+	Ich versichere, dass ich die Arbeit selbstständig verfasst und keine anderen als die angegebenen Hilfsmittel -- insbesondere keine im Quellenverzeichnis nicht benannten Internetquellen -- benutzt habe, die Arbeit vorher nicht in einem anderen Prüfungsverfahren eingereicht habe und die eingereichte schriftliche Fassung der auf dem elektronischen Speichermedium entspricht.
+	
+	Ich bin mit der Einstellung der Arbeit in den Bestand der Bibliothek des Departments Informatik einverstanden.
+	
+	Hamburg, den \today
+	
+	\bigskip
+	(Unterschrift)\\
+	Christoph Heine
+	
+	\bigskip
+	\bigskip
+	(Unterschrift)\\
+	Daniel Matzat
+	
 \end{document}

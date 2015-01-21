@@ -1,5 +1,6 @@
-/document.synctex.gz
-/document.pdf
-/document.out
-/document.log
+*.synctex.gz
+*.out
+*.log
 *.aux
+*.toc
+/.gitignore~
