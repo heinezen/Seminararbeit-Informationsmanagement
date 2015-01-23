@@ -4,3 +4,6 @@
 *.aux
 *.toc
 /.gitignore~
+*.bib~
+*.blg
+*.bbl

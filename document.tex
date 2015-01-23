@@ -11,7 +11,6 @@
 \usepackage{a4wide}
 \usepackage{rotating}
 \usepackage{listings}\lstset{breaklines=true,breakatwhitespace=true,frame=leftline,captionpos=b,xleftmargin=6ex,tabsize=4,numbers=left,numberstyle=\ttfamily\footnotesize,basicstyle=\ttfamily\footnotesize}
-\sloppy
 \setlength{\parindent}{0em}
 \setlength{\parskip}{1.2ex plus 0.5ex minus 0.5ex}
 \pagestyle{plain}
@@ -33,7 +32,7 @@
 		Christoph Heine \par
 		Matrikelnummer 6524129 \par
 		Studiengang Wirtschaftsinformatik \par
-		Daniel Matzat \par
+		Daniel M. \par
 		Matrikelnummer 1234567 \par
 		Studiengang Wirtschaftsinformatik
 		\vfill
@@ -44,7 +43,11 @@
 	\end{center}
 	
 	\newpage
+	\tableofcontents
+	
+	\newpage
 	\section*{Zusammenfassung}
+	Zitat\footnote{\cite{IEEE2013}}.
 	
 	\newpage
 	\section{Aller Anfang ist schwer}
@@ -70,6 +73,7 @@
 	\addcontentsline{toc}{section}{Literaturverzeichnis}
 	\begin{raggedright}%schaltet Blocksatz ab, erzeugt ein stimmigeres Schriftbild im Literaturverzeichnis
 		\begin{thebibliography}{XXXXXXXX}
+		\bibitem[IEEE2013]{IEEE2013} Alex Biryukov, Ivan Pustogarov, Ralf-Philipp Weinmann: Trawling for Tor Hidden Services: Detection, Measurement, Deanonymization. IEEE Symposium on Security and Privacy, San Francisco, 2013, S. 80-94.
 		\end{thebibliography}
 	\end{raggedright}
 	
@@ -90,6 +94,5 @@
 	\bigskip
 	\bigskip
 	(Unterschrift)\\
-	Daniel Matzat
-	
+	Daniel M.
 \end{document}
